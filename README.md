@@ -15,12 +15,12 @@ An attempt at inferring the academic success of philophers after the completion 
 
 Classification
 -----
-Identification of philosophical theses among a dataset of about 500K unlabeled documents, using the semantic features from their title. Feature extraction is carried out with a BoW approach and the classifier is Random Forest. Classification results are then enhanced using a semantic inference approach based on the knowledge base babelnet.
+Identification of philosophical theses among a dataset of about 500K unlabeled documents, using the semantic features of the titles. Feature extraction is carried out with a BoW approach and the classifier is Random Forest. Classification results are then enhanced using a semantic inference approach based on the external knowledge base babelnet.
 
 
 Classification with TellMeFirst
 -----
-A different classification approach that leverages entities extracted from [TellMeFirst](https://tellmefirst.synapta.io/) as features. The semantic inference step is replaced by dimensionality reduction using SVD. 
+A different classification approach that leverages entities extracted from [TellMeFirst](https://tellmefirst.synapta.io/) as features. The semantic inference step is not performed in this case, and it may be replaced with dimensionality reduction using SVD. 
 
 
 Entity Recognition
@@ -30,9 +30,9 @@ A simple implementation of entity recognition in a jupyter notebook using ```spa
 
 Semantic Inference
 -----
-Definition of a knowledge graph built with entities extracted from the documents using tellmefirst and philosophical entities extracted from Wikidata. The KG can the be used for semantic inference and reasoning using graph mining techniques, e.g. shortest path and betweennes centrality.
+Definition of a knowledge graph built with both entities extracted from the documents using tellmefirst and philosophical entities extracted from Wikidata. The KG can then be used for semantic inference and reasoning using techniques from graph theory, e.g. shortest path and betweennes centrality.
 
 
 Topic Modeling
 -----
-Computation of a fixed number of topics from unstructured textual content of the document, using a unsupervised clustering technique.
+Computation of a fixed number of topics from unstructured textual content of the documents, using an unsupervised clustering technique.
