@@ -1,0 +1,17 @@
+classification/data/*
+classification/models/*
+classification/preprocessed_data/*
+classification/results/*
+
+classificationTMF/data/*
+classificationTMF/models/*
+
+data/*
+
+semantic_inference/tellmefirst/data/*
+
+topic_modeling/data/*
+topic_modeling/html/*
+topic_modeling/models/*
+topic_modeling/out/*
+topic_modeling/tree-tagger*
