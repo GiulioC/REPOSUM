@@ -30,7 +30,9 @@ A simple implementation of entity recognition in a jupyter notebook using ```spa
 
 Semantic Inference
 -----
+Definition of a knowledge graph built with entities extracted from the documents using tellmefirst and philosophical entities extracted from Wikidata. The KG can the be used for semantic inference and reasoning using graph mining techniques, e.g. shortest path and betweennes centrality.
 
 
 Topic Modeling
 -----
+Computation of a fixed number of topics from unstructured textual content of the document, using a unsupervised clustering technique.
